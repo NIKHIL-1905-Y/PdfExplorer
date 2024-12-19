@@ -69,7 +69,7 @@ const App = () => {
 
             ))}
             {filteredPdfs.length === 0 && (
-              <p className="no-results">No PDFs found.</p>
+              <p className="no-results">Fetching Data .....</p>
             )}
           </div>
         </div>

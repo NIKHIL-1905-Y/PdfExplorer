@@ -80,7 +80,7 @@
   transition: transform 0.2s;
   cursor: pointer;
   /* background: linear-gradient(to right, #477f19, #15525e, #7d1883); */
-  background-color: #610c0c2f;
+  background-color: #0c5e612f;
   box-shadow: 4px 4px 10px gray, -4px -4px 10px lightgray;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -182,6 +182,24 @@
   color: #fff; /* Keep the text color white */
   transform: scale(1.05); /* Slight zoom effect */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds depth */
+}
+.no-results {
+  font-size: 1.2rem; /* A bit larger for better visibility */
+  font-weight: bold; /* Makes it stand out */
+  color: #148374; /* Greenish color to match a theme of progress */
+  text-align: center; /* Centers the text */
+  margin: 20px auto; /* Adds spacing around the text */
+  animation: fadeInOut 1.5s infinite; /* Adds a smooth animation */
+}
+
+/* Fade-in and fade-out animation */
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.3; /* Semi-transparent at the start and end */
+  }
+  50% {
+    opacity: 1; /* Fully visible in the middle */
+  }
 }
 
 
